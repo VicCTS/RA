@@ -60,14 +60,14 @@ public class MultiImageTracker : MonoBehaviour
 
         _arObjects[trackedImage.referenceImage.name].SetActive(true);
         _arObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
-        _arObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
+        //_arObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
     }
 
     void SetupSceneObjects()
     {
         foreach (var prefab in _prefabsToSpawn)
         {
-            GameObject arObject = Instantiate(prefab, Vector3.zero, Quaternion.identity);
+            GameObject arObject = Instantiate(prefab, Vector3.zero, prefab.transform.rotation);
             arObject.name = prefab.name;
             arObject.SetActive(false);
             _arObjects.Add(arObject.name, arObject);

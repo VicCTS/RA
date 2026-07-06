@@ -18,12 +18,22 @@ MonoBehaviour:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4890256518033387603
-      m_GuidHigh: 18256504834658889405
+      m_GuidLow: 5185643195460063319
+      m_GuidHigh: 7367021368509339320
     m_SerializedTextureGuid:
-      m_GuidLow: 11998868560128388967
-      m_GuidHigh: 17837469891365796123
-    m_Size: {x: 0.1, y: 0.17777778}
+      m_GuidLow: 15831549948665323263
+      m_GuidHigh: 10110057840041900411
+    m_Size: {x: 0.1, y: 0.056250002}
     m_SpecifySize: 1
-    m_Name: Jan
+    m_Name: Phased
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4779581819326690430
+      m_GuidHigh: 4932455467905219734
+    m_SerializedTextureGuid:
+      m_GuidLow: 17060837649702166995
+      m_GuidHigh: 16714692735396938571
+    m_Size: {x: 0.1, y: 0.056250002}
+    m_SpecifySize: 1
+    m_Name: Viewed
     m_Texture: {fileID: 0}
